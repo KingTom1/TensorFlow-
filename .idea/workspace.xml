@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6676dd43-bbeb-481a-8aa1-b6d4f3fa4394" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow进阶/20190116/滑动平均模型.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow进阶/20190116/滑动平均模型.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow进阶/20190121/MNIST数字识别问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow进阶/20190121/MNIST数字识别问题.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +12,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TensorFlow_$.coverage" NAME="滑动平均模型 Coverage Results" MODIFIED="1547621402200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow进阶/20190116" />
+    <SUITE FILE_PATH="coverage/TensorFlow_$MNIST.coverage" NAME="MNIST数字识别问题 Coverage Results" MODIFIED="1548040908437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow进阶/20190121" />
+    <SUITE FILE_PATH="coverage/TensorFlow_$.coverage" NAME="过拟合问题 Coverage Results" MODIFIED="1547630448146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow进阶/20190115" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-264085782">
@@ -52,62 +53,55 @@
     <session id="1910343007">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.32" value="3" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="15" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="15" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2943" />
+          <entry key="py" value="3346" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="2943" />
+          <entry key="Python" value="3346" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TensorFlow进阶/20190121/MNIST数字识别问题.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="66" selection-start-column="66" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TensorFlow进阶/20190116/滑动平均模型.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/client/session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="899" selection-start-line="899" selection-end-line="899" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/ops/state_ops.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="195" column="37" lean-forward="true" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
+            <state relative-caret-position="375">
+              <caret line="42" column="57" lean-forward="true" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -141,6 +135,7 @@
         <option value="$PROJECT_DIR$/TensorFlow进阶/20190111/学习率的优化问题.py" />
         <option value="$PROJECT_DIR$/TensorFlow进阶/20190115/过拟合问题.py" />
         <option value="$PROJECT_DIR$/TensorFlow进阶/20190116/滑动平均模型.py" />
+        <option value="$PROJECT_DIR$/TensorFlow进阶/20190121/MNIST数字识别问题.py" />
       </list>
     </option>
   </component>
@@ -151,10 +146,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="202" />
-    <option name="y" value="21" />
+    <option name="x" value="200" />
+    <option name="y" value="20" />
     <option name="width" value="1555" />
-    <option name="height" value="834" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,6 +178,12 @@
               <item name="TensorFlow进阶" type="462c0819:PsiDirectoryNode" />
               <item name="20190116" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TensorFlow-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow-" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow进阶" type="462c0819:PsiDirectoryNode" />
+              <item name="20190121" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,9 +192,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="D:/a张育萁python项目代码/Tools-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\PycharmProjects\TensorFlow-\TensorFlow进阶\20190121" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dell\PycharmProjects\TensorFlow-\TensorFlow进阶\2019前" />
     </key>
@@ -210,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.滑动平均模型">
+  <component name="RunManager" selected="Python.MNIST数字识别问题">
     <configuration name="第三章--向前传播" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TensorFlow系统学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,6 +251,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow进阶/20190116/滑动平均模型.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MNIST数字识别问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TensorFlow系统学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorFlow进阶/20190121" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow进阶/20190121/MNIST数字识别问题.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,15 +436,13 @@
     <list>
       <item itemvalue="Python.第三章--向前传播" />
       <item itemvalue="Python.placeholder" />
-      <item itemvalue="Python.过拟合问题" />
-      <item itemvalue="Python.计算图、张量" />
       <item itemvalue="Python.滑动平均模型" />
+      <item itemvalue="Python.MNIST数字识别问题" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MNIST数字识别问题" />
         <item itemvalue="Python.滑动平均模型" />
-        <item itemvalue="Python.计算图、张量" />
-        <item itemvalue="Python.过拟合问题" />
         <item itemvalue="Python.第三章--向前传播" />
         <item itemvalue="Python.placeholder" />
       </list>
@@ -463,19 +487,33 @@
       <option name="project" value="LOCAL" />
       <updated>1547621930711</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20190116">
+      <created>1547629557357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547629557357</updated>
+    </task>
+    <task id="LOCAL-00006" summary="20190116">
+      <created>1548049012264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548049012264</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.121983916" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12600537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23404256" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17730497" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54011464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -561,9 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10742">
           <caret line="580" selection-start-line="580" selection-end-line="580" />
-          <folding>
-            <element signature="e#762#800#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,30 +623,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlow进阶/20190115/过拟合问题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlow进阶/2019前/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlow进阶/20190111/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow进阶/2019前/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/TensorFlow进阶/20190111/__init__.py" />
     <entry file="file://$PROJECT_DIR$/TensorFlow进阶/2019前/计算图、张量.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/ops/state_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="195" column="37" lean-forward="true" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -622,10 +639,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/ops/state_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="195" column="37" lean-forward="true" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow进阶/20190115/过拟合问题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/http/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="1233" selection-start-line="1233" selection-end-line="1233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="1317" selection-start-line="1317" selection-end-line="1317" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="231" column="4" selection-start-line="231" selection-start-column="4" selection-end-line="231" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TensorFlow进阶/20190116/滑动平均模型.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="375">
+          <caret line="42" column="57" lean-forward="true" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow进阶/20190121/MNIST数字识别问题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" selection-start-column="66" selection-end-column="66" />
         </state>
       </provider>
     </entry>
